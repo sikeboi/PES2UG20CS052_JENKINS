@@ -15,7 +15,7 @@ sh 'main/hello_exec' }
 }
 stage('Deploy'){
 steps{
-sh 'echo "Running file" && main/hello_exec' }
+sh 'echo "Running file" && main/hello_ex' }
 }
 }
 post{
